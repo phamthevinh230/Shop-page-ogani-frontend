@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ogani Template">
+    <meta name="keywords" content="Ogani, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SHOP THỜI TRANG - FOLLOW ME</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Humberger Begin -->
+    <div class="humberger__menu__overlay"></div>
+    <div class="humberger__menu__wrapper">
+        <div class="humberger__menu__logo">
+            <a href="#"><img src="img/logo1.png" alt=""></a>
+        </div>
+        <div class="humberger__menu__cart">
+            <ul>
+                <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
+                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+            </ul>
+            <div class="header__cart__price">item: <span>$150.00</span></div>
+        </div>
+        <div class="humberger__menu__widget">
+            <div class="header__top__right__language">
+                <img src="img/language2.jpg" alt="">
+                <div>Tiếng Việt</div>
+                <span class="arrow_carrot-down"></span>
+                <ul>
+                    <li><a href="#">Tiếng Việt</a></li>
+                    <li><a href="#">English</a></li>
+                </ul>
+            </div>
+            <div class="header__top__right__auth">
+                <a href="#"><i class="fa fa-user"></i> Login</a>
+            </div>
+        </div>
+        <nav class="humberger__menu__nav mobile-menu">
+            <ul>
+                <li class="active"><a href="./index.html">Home</a></li>
+                <li><a href="./shop-grid.html">Shop</a></li>
+                <li><a href="#">Pages</a>
+                    <ul class="header__menu__dropdown">
+                        <li><a href="./shop-details.html">Shop Details</a></li>
+                        <li><a href="./shoping-cart.html">Shoping Cart</a></li>
+                        <li><a href="./checkout.html">Check Out</a></li>
+                        <li><a href="./blog-details.html">Blog Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
+        <div class="header__top__right__social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+        </div>
+        <div class="humberger__menu__contact">
+            <ul>
+                <li><i class="fa fa-envelope"></i> HELLO {{USERNAME}}</li>
+                <li>Miễn phí vận chuyển nội thành thành phố Hồ Chí Minh</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Humberger End -->
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header__top__left">
+                            <ul>
+                                <li><i class="fa fa-envelope"></i> HELLO {{USERNAME}}</li>
+                                <li>Miễn phí vận chuyển nội thành thành phố Hồ Chí Minh</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header__top__right">
+                            <div class="header__top__right__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                            </div>
+                            <div class="header__top__right__language">
+                                <img src="img/language2.jpg" alt="">
+                                <div>Tiếng Việt</div>
+                                <span class="arrow_carrot-down"></span>
+                                <ul>
+                                    <li><a href="#">Tiếng Việt</a></li>
+                                    <li><a href="#">English</a></li>
+                                </ul>
+                            </div>
+                            <div class="header__top__right__auth">
+                                <a href="#"><i class="fa fa-user"></i> Đăng nhập</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="header__logo">
+                        <a href="./index.html"><img src="img/logo1.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <nav class="header__menu">
+                        <ul>
+                            <li class="active"><a href="./index.html">Trang chủ</a></li>
+                            <li><a href="./shop-grid.html">Sản phẩm</a></li>
+                            <li><a href="./shoping-cart.html">Giỏ hàng</a></li>
+                            <!-- <li><a href="./checkout.html">Cập nhật thông tin</a></li> -->
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a href="./contact.html">Liên hệ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-2">
+                    <div class="header__cart">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="humberger__open">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="hero__categories">
+                        <div class="hero__categories__all">
+                            <i class="fa fa-bars"></i>
+                            <span>Danh sách sản phẩm</span>
+                        </div>
+                        <ul>
+                            <li><a href="#">Nam</a></li>
+                            <li><a href="#">Nữ</a></li>
+                            <li><a href="#">Áo khoác</a></li>
+                            <li><a href="#">Giày dép</a></li>
+                            <li><a href="#">Phụ kiện</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="hero__search">
+                        <div class="hero__search__form">
+                            <form action="#">
+                                <input type="text" placeholder="Bạn đang cần gì?">
+                                <button type="submit" class="site-btn">Tìm kiếm</button>
+                            </form>
+                        </div>
+                        <div class="hero__search__phone">
+                            <div class="hero__search__phone__icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="hero__search__phone__text">
+                                <h5>+84 11111111</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__item set-bg" data-setbg="img/hero/THUONGMAI4.png">
+                        <div class="hero__text">
+                           
+                            <a href="#" class="primary-btn">MUA NGAY</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Categories Section Begin -->
+    <section class="categories">
+        <div class="container">
+            <div class="row">
+                <div class="categories__slider owl-carousel">
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/270x270.png">
+                            <h5><a href="#">Đồ nam</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/270x270.png">
+                            <h5><a href="#">Đồ nữ</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/270x270.png">
+                            <h5><a href="#">Áo khoác</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/270x270.png">
+                            <h5><a href="#">Giày dép</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/270x270.png">
+                            <h5><a href="#">Phụ kiện</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Categories Section End -->
+
+    <!-- Featured Section Begin -->
+    <section class="featured spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>SẢN PHẨM NỔI BẬT</h2>
+                    </div>
+                    <div class="featured__controls">
+                        <ul>
+                            <li class="active" data-filter="*">TẤT CẢ</li>
+                            <li data-filter=".oranges">ĐỒ NAM</li>
+                            <li data-filter=".fresh-meat">ĐỒ NỮ</li>
+                            <li data-filter=".vegetables">GIÀY DÉP</li>
+                            <li data-filter=".fastfood">ÁO KHOÁC</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row featured__filter">
+                
+            </div>
+        </div>
+    </section>
+    <!-- Featured Section End -->
+
+    <!-- Banner Begin -->
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="banner__pic">
+                        <img src="img/banner/banner-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="banner__pic">
+                        <img src="img/banner/banner-4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner End -->
+
+    <!-- Blog Section Begin -->
+    <section class="from-blog spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title from-blog__title">
+                        <h2>BLOG THỜI TRANG</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="blog__item">
+                        <div class="blog__item__pic">
+                            <img src="img/blog/blog-8s.jpg" alt="">
+                        </div>
+                        <div class="blog__item__text">
+                            <ul>
+                                <li><i class="fa fa-calendar-o"></i> Aug 3, 2020</li>
+                                <li><i class="fa fa-comment-o"></i> 5</li>
+                            </ul>
+                            <h5><a href="#">Song hỷ khai trương - Khẩn trương lấy deal</a></h5>
+                            <p>Tin Báo Hỷ!!!<br>
+                                Thân thương kính gửi đến toàn thể các tín đồ thời trang TotoShop yêu dấu: Với sứ mệnh mang đến những item thời trang đỉnh "kao" và không ngừng cố gắng mang lại trải nghiệm shopping tuyệt "dzời" nhất, TotoShop đang ngày càng nỗ lực mở rộng hệ thống cửa hàng để mang các sản phẩm thời trang chất lượng đến gần hơn với khách hàng, trực tiếp rút ngắn khoảng cách và đem lại sự thuận tiện nhất khi tham gia mua sắm.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="blog__item">
+                        <div class="blog__item__pic">
+                            <img src="img/blog/blog-9.jpg" alt="">
+                        </div>
+                        <div class="blog__item__text">
+                            <ul>
+                                <li><i class="fa fa-calendar-o"></i> Aug 3, 2020</li>
+                                <li><i class="fa fa-comment-o"></i> 5</li>
+                            </ul>
+                            <h5><a href="#">Chương Trinh Tri Ân Khách Hàng</a></h5>
+                            <p>Chương trình Tri Ân Khách Hàng bắt đầu từ ngày 03/08/2020 cho đến khi hết Phiếu Tri Ân và chỉ có 1000 phiếu cho 1000 khách hàng đầu tiên đến với cửa hàng Follow Me. trong dụp này. Vì thế hãy chắc chắn bạn là một trong 1000 khách hàng đầu tiên của Chương trình Tri Ân Khách Hàng của Follow Me nhé!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="blog__item">
+                        <div class="blog__item__pic">
+                            <img src="img/blog/blog-7s.jpg" alt="">
+                        </div>
+                        <div class="blog__item__text">
+                            <ul>
+                                <li><i class="fa fa-calendar-o"></i> Aug 3, 2020</li>
+                                <li><i class="fa fa-comment-o"></i> 5</li>
+                            </ul>
+                            <h5><a href="#">QUÀ TẶNG MÙA MƯA</a></h5>
+                            <p>Mùa Hè về, Sài Gòn như dở chứng với những cơn mưa bất chợt ùa về vội vã và ra đi cũng vội vã không kém. Âu cũng vì thế mà Sài Gòn từ lâu được ví như cô nàng khó chiều "sớm nắng chiều mưa".  Đối với thời tiết thất thường như hiện nay, tốt nhất là chúng ta nên trang bị cho mình những món đồ cần có để ứng phó với nó nhé!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__about__logo">
+                            <a href="./index.html"><img src="img/logo1.png" alt=""></a>
+                        </div>
+                        <ul>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li>Liên hệ công ty</li>
+                            <li>Đối tác</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+                    <div class="footer__widget">
+                        <h6>Chính sách</h6>
+                        <ul>
+                            <li><a href="#">Chính sách đổi hàng</a></li>
+                            <li><a href="#">Chính sách bảo hành</a></li>
+                            <li><a href="#">Chính sách bảo mật</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Thanh toán và vận chuyển</a></li>
+                            <li><a href="#">Kiểm tra thông tin đơn hàng</a></li>
+                            <li><a href="#">Câu hỏi thường gặp</a></li>
+                            <li><a href="#">Tư vấn chọn size</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="footer__widget">
+                        <h6>Đăng ký nhận tin</h6>
+                        <p>Hãy nhanh tay đăng ký nhận tin để nhận thông tin khuyến mãi và thông tin mới nhất</p>
+                        <form action="#">
+                            <input type="text" placeholder="Email của bạn">
+                            <button type="submit" class="site-btn">GỬI</button>
+                        </form>
+                        <div class="footer__widget__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="container-fluid bg-dark text-center" style="padding: 50px 0px;margin-top: 20px;">
+         <div class="d-flex col-md-12">
+            <div class="flex-fill col-md-4">
+                <h3 style="color: white">THÔNG TIN LIÊN HỆ</h3>
+                <p style="color: white"><i class="fas fa-map-marker-alt red-text"></i>  391A Nam Kỳ Khởi Nghĩa, Q. 3, TP. Hồ Chí Minh</p>
+                <p style="color: white"><i class="fas fa-phone-square fa-flip-horizontal red-text"></i>  (028) 3526 8799 – (028) 62523434</p>
+                <p style="color: white"><i class="fas fa-map-marker-alt red-text"></i>  778/B1 Nguyễn Kiệm, P.4, Q. Phú Nhuận, TP. Hồ Chí Minh</p>
+                <p style="color: white"><i class="fas fa-phone-square fa-flip-horizontal red-text"></i>(028) 3526 8799 – (028) 62523434</p>
+            </div>
+           
+            <div class="p-2 flex-fill col-md-4">
+                <h3 style="color: white">THÔNG TIN CÁ NHÂN</h3>
+                <p style="color: white">Phạm Thế Vinh &copy; PS09842</p>
+                <p style="color: white">Hoàng Thiên Quốc &copy; PS09842</p>
+                <p style="color: white">Hoàng Văn Long &copy; PS09842</p>
+                <p style="color: white">Lê Thanh Tiến &copy; PS09842</p>
+            </div>
+             <div class="p-2 flex-fill col-md-4">
+                <h3 style="color: white">GIỜ LÀM VIỆC</h3>
+                <p style="color: white">Giờ làm việc của chúng tôi</p>
+                <p style="color: white">9:00 - 21:00</p>
+                <iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ftqv11.epizy.com%2Fdemo.html&width=50px&layout=standard&action=like&size=large&show_faces=true&share=true&height=80&appId=335593320447167" width="140px" height="80" style="border:none;overflow:hidden;color: white" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                
+            </div>
+          </div>
+        </div> 
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
